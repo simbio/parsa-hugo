@@ -7,7 +7,7 @@
         <h2 class="mb-4">{{.Title }}</h2>
         <img src="{{.Params.Image | absURL }}" alt="{{.Site.Params.author}}" class="img-fluid w-100 mb-4">
         {{ .Content }}
-        <form action="{{ .Site.Params.contact_form_action }}" class="row mt-5">
+        <form action="https://getform.io/f/39e8b869-e6d3-4893-946d-d3b44a484a01" class="row mt-5">
           <div class="col-lg-6">
             <input type="text" class="form-control mb-4" name="name" id="name" placeholder="Nome">
           </div>
@@ -18,7 +18,7 @@
             <textarea name="message" id="message" class="form-control mb-4" placeholder="Mensagem..."></textarea>
           </div>
           <div class="col-12">
-            <button class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
         </form>
       </div>
